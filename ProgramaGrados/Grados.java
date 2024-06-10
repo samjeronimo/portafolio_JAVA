@@ -26,7 +26,7 @@ public class Grados {
             System.out.println();
 
             Scanner opcionAelegir = new Scanner(System.in);
-            System.out.print("?: ");
+            System.out.print("[?]: ");
             int opcion = opcionAelegir.nextInt();
 
             System.out.println();

@@ -21,8 +21,6 @@ public class Mate {
 
         }
 
-        System.out.println();
-
         Scanner opcion = new Scanner(System.in);
         System.out.print("[?]: ");
         int res_opcion = opcion.nextInt();

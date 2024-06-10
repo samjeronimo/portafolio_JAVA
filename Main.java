@@ -5,6 +5,7 @@ import matematicas.Mate;
 import calcular_edad.edad;
 import ProgramaGrados.Grados;
 import lista.ListaDeCompras;
+import conversorMoneda.conversor_de_moneda;
 
 import java.util.Scanner;
 
@@ -40,6 +41,9 @@ public class Main {
                 break;
             case 6:
                 ListaDeCompras.programas();
+                break;
+            case 7:
+                conversor_de_moneda.conversor();
                 break;
         }
     }

@@ -36,3 +36,7 @@ Un programa en Java es un conjunto de instrucciones escritas en el lenguaje de p
 ### Lista de compras
  - **Archivo:** `lista.java`
  - **Descripción:** En este archivo se creó un programa para poder escoger productos y añadirlos a una lista donde pregunta el nombre de el producto y el precio.
+
+### Conversion de monedas
+ - **Archivo:** `conversorMoneda.java`
+ - **Descripción:** En este archivo se creó un programa para poder convertir monedas de un país a otras monedas de otros paises.
