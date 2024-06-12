@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import opciones.ListaOpciones;
-
 public class ListaDeCompras {
 
     //LISTA DE OPCIONES

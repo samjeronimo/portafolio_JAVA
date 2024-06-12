@@ -1,11 +1,12 @@
 import interfaz_grafica.Banner;
-import opciones.ListaOpciones;
-import programas.IMC;
-import matematicas.Mate;
-import calcular_edad.edad;
-import ProgramaGrados.Grados;
+import mis_metodos.ListaOpciones;
+import IMC.IMC;
+import calculadora.Mate;
+import calculadora.edad;
+import conversor.Grados;
+import conversor.longitud;
 import lista.ListaDeCompras;
-import conversorMoneda.conversor_de_moneda;
+import conversor.conversor_de_moneda;
 
 import java.util.Scanner;
 
@@ -34,7 +35,7 @@ public class Main {
                 Grados.grados();
                 break;
             case 4:
-                System.out.println();
+                longitud.cargarOperaciones();
                 break;
             case 5:
                 edad.edad();

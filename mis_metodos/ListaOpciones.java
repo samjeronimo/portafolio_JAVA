@@ -1,4 +1,4 @@
-package opciones;
+package mis_metodos;
 
 public class ListaOpciones {
 

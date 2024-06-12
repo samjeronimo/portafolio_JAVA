@@ -1,4 +1,4 @@
-package ProgramaGrados;
+package conversor;
 import java.util.Scanner;
 
 public class Grados {

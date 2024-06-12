@@ -1,4 +1,4 @@
-package conversorMoneda;
+package conversor;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package matematicas;
+package calculadora;
 import java.util.Scanner;
 public class Mate {
 

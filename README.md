@@ -1,8 +1,8 @@
-# Portafolio de programas JAVA
+# Portafolio de IMC JAVA
 
 ¡Hola y bienvenidos a mi portafolio de Java! Soy un estudiante apasionado por la programación, y este es el lugar donde comparto mis proyectos y experimentos con Java. Desde aplicaciones que hice en clase hasta proyectos personales en los que trabajé por diversión, aquí encontrarás un poco de todo. Si eres un compañero estudiante, un curioso del código, o simplemente alguien que quiere ver lo que he estado aprendiendo, estás en el lugar indicado. ¡Espero que disfrutes explorando tanto como yo disfruté creándolo! 
 
-## Descripción de programas
+## Descripción de IMC
 Un programa en Java es un conjunto de instrucciones escritas en el lenguaje de programación Java, diseñado para ser ejecutado por la Máquina Virtual de Java (JVM). Java es un lenguaje de programación orientado a objetos, lo que significa que se basa en el concepto de "objetos" que entidades del mundo real y sus interacciones.
 
 ### Main
@@ -13,9 +13,9 @@ Un programa en Java es un conjunto de instrucciones escritas en el lenguaje de p
  - **Archivo:** `interfaz_grafica.java`
  - **Descripción:** es una forma de interacción entre el usuario y un programa mediante elementos visuales como ventanas, botones, menús y otros componentes gráficos.
 
-### Lista de opciones
- - **Archivos:** `opciones.java`
- - **Descripción:** Se muestra una lista con multiples opciones ordenados que se pueden seleccionar y utilizar.
+### Lista de mis_metodos
+ - **Archivos:** `mis_metodos.java`
+ - **Descripción:** Se muestra una lista con multiples mis_metodos ordenados que se pueden seleccionar y utilizar.
 
 ### Calculadora
  - **Archivo:** `Matemáticas.java`
@@ -38,5 +38,5 @@ Un programa en Java es un conjunto de instrucciones escritas en el lenguaje de p
  - **Descripción:** En este archivo se creó un programa para poder escoger productos y añadirlos a una lista donde pregunta el nombre de el producto y el precio.
 
 ### Conversion de monedas
- - **Archivo:** `conversorMoneda.java`
+ - **Archivo:** `conversor.java`
  - **Descripción:** En este archivo se creó un programa para poder convertir monedas de un país a otras monedas de otros paises.
