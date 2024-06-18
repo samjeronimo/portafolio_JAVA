@@ -5,9 +5,9 @@ public class ListaOpciones {
     public static void cargarOpciones(){
         String[] listaDeOpciones = {
                 "Calculadora","IMC",
-                "Grados","Opcion_4",
+                "Grados","Longitud",
                 "Calcular edad","Lista de compras",
-                "Conversor de moneda","opcion_8",
+                "Conversor de moneda","Biblioteca",
                 "Opcion_9","Opcion_10"
         };
 

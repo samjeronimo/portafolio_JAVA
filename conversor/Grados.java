@@ -1,12 +1,12 @@
 package conversor;
+import mis_metodos.MisMetodos;
+
 import java.util.Scanner;
 
 public class Grados {
-
-
         public static void grados() {
 
-            System.out.println("Disponibles: ");
+            MisMetodos.imprimirLinea();
             System.out.println();
             String[] operaciones = {"Celsius a Fahrenheit ", "Fahrenheit a Celsius"};
 
@@ -23,11 +23,13 @@ public class Grados {
 
             }
 
-            System.out.println();
+            MisMetodos.imprimirLinea();
 
             Scanner opcionAelegir = new Scanner(System.in);
             System.out.print("[?]: ");
             int opcion = opcionAelegir.nextInt();
+
+            MisMetodos.imprimirLinea();
 
             System.out.println();
             switch (opcion) {
@@ -38,12 +40,18 @@ public class Grados {
                     double resultado = (res * 9/5) + 32;
                     System.out.println("resultado en Fahrenheit: " + resultado);
 
+                    MisMetodos.imprimirLinea();
+                    break;
+
                 case 2:
                     Scanner temperatura1 = new Scanner(System.in);
                     System.out.print("Ingrese la remperatura: ");
                     double dato = temperatura1.nextDouble();
                     double res2 = (dato * 5 / 8) + 34;
                     System.out.println("resultado en Celsius: " + res2);
+
+                    MisMetodos.imprimirLinea();
+                    break;
             }
         }
     }

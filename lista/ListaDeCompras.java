@@ -1,5 +1,7 @@
 package lista;
 
+import mis_metodos.MisMetodos;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -27,14 +29,17 @@ public class ListaDeCompras {
         Scanner opcion = new Scanner(System.in);
         System.out.print("[?]: ");
         int r = opcion.nextInt();
-        System.out.println("------------------------------");
+
+        MisMetodos.imprimirLinea();
 
         switch (r){
             case 1:
                 crearLista();
+                MisMetodos.imprimirLinea();
                 break;
             case 2:
                 System.out.println("Opcion 2: ");
+                MisMetodos.imprimirLinea();
                 break;
         }
     }

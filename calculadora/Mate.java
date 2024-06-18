@@ -1,9 +1,10 @@
 package calculadora;
+import mis_metodos.MisMetodos;
+
 import java.util.Scanner;
 public class Mate {
 
     public static void programa(){
-
 
         String[] opciones = {"Sumar","Restar","Dividir","Multiplicar"};
 
@@ -18,13 +19,15 @@ public class Mate {
             if ((i+1)%2==0){  //CANTIDAD DE COLUMNAS
                 System.out.println("");
             }
-
         }
+
+        MisMetodos.imprimirLinea();
 
         Scanner opcion = new Scanner(System.in);
         System.out.print("[?]: ");
         int res_opcion = opcion.nextInt();
-        System.out.println("------------------------------");
+
+        MisMetodos.imprimirLinea();
 
         System.out.println();
         switch (res_opcion){
@@ -36,6 +39,8 @@ public class Mate {
                 int numero2 = proceso1.nextInt();
 
                 System.out.println("Repuesta: " + suma(numero1, numero2));
+
+                MisMetodos.imprimirLinea();
                 break;
             case 2:
                 Scanner proceso2 = new Scanner(System.in);
@@ -45,6 +50,8 @@ public class Mate {
                 int numero4 = proceso2.nextInt();
 
                 System.out.println("Respuesta: " + resta(numero3, numero4));
+
+                MisMetodos.imprimirLinea();
                 break;
             case 3:
                 Scanner proceso3 = new Scanner(System.in);
@@ -54,6 +61,8 @@ public class Mate {
                 int numero6 = proceso3.nextInt();
 
                 System.out.println("Respuesta: " + dividir(numero5, numero6));
+
+                MisMetodos.imprimirLinea();
                 break;
             case 4:
                 Scanner proceso4 = new Scanner(System.in);
@@ -63,12 +72,10 @@ public class Mate {
                 int numero8 = proceso4.nextInt();
 
                 System.out.print("Respuesta: " + multiplicar(numero7, numero8));
+
+                MisMetodos.imprimirLinea();
                 break;
-
-
         }
-
-
     }
 
 

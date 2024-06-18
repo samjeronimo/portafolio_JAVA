@@ -1,10 +1,17 @@
 package conversor;
 
+import mis_metodos.MisMetodos;
+
 import java.util.Scanner;
 
 public class conversor_de_moneda {
 
     public static void conversor() {
+
+        Scanner nombre = new Scanner(System.in);
+        System.out.print("[Moneda]");
+        int r324 = nombre.nextInt();
+
         String[] listaDeOpciones = {
                 "Quetzales--Dólares", "Dólares--Quetzales",
                 "Quetzales--Pesos Mexicanos", "Pesos Mexicanos--Quetzales"
@@ -26,7 +33,8 @@ public class conversor_de_moneda {
         Scanner signo = new Scanner(System.in);
         System.out.print("[?]: ");
         int r = signo.nextInt();
-        System.out.println("------------------------------");
+
+        MisMetodos.imprimirLinea();
 
         switch (r) {
             case 1:
@@ -35,6 +43,8 @@ public class conversor_de_moneda {
                 double res_Q = Q.nextDouble();
 
                 System.out.println("Resultado en Dólares: " + quetzalesDolares(res_Q));
+
+                MisMetodos.imprimirLinea();
                 break;
 
             case 2:
@@ -43,6 +53,8 @@ public class conversor_de_moneda {
                 double res_dolar = Dolar.nextDouble();
 
                 System.out.println("Resultado en Quetzales: " + dolaresQuetzales(res_dolar));
+
+                MisMetodos.imprimirLinea();
                 break;
 
             case 3:
@@ -51,6 +63,8 @@ public class conversor_de_moneda {
                 double res_Quetzales = Quetzales_Pesos.nextDouble();
 
                 System.out.println("Resultado en Pesos: " + quetzalesPesosMX(res_Quetzales));
+
+                MisMetodos.imprimirLinea();
                 break;
 
             case 4:
@@ -59,6 +73,8 @@ public class conversor_de_moneda {
                 double res_pesos = pesos_Quetzales.nextDouble();
 
                 System.out.println("Resultado en Quetzales: " + pesosMXQuetzales(res_pesos));
+
+                MisMetodos.imprimirLinea();
                 break;
         }
     }

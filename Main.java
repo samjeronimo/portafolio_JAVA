@@ -7,20 +7,23 @@ import conversor.Grados;
 import conversor.longitud;
 import lista.ListaDeCompras;
 import conversor.conversor_de_moneda;
+import mis_metodos.MisMetodos;
+import libros.Biblioteca;
 
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
 
+        MisMetodos.limpiarConsola();
         Banner.mensaje();
         ListaOpciones.cargarOpciones();
+        MisMetodos.imprimirLinea();
 
         //PEDIR UNA OPCION
         Scanner intOpcion = new Scanner(System.in);
         System.out.print("[?]: ");
         int opcion = intOpcion.nextInt();
-        System.out.println("------------------------------");
 
 
         //CARGAR OPCION DEL USUARIO
@@ -45,6 +48,9 @@ public class Main {
                 break;
             case 7:
                 conversor_de_moneda.conversor();
+                break;
+            case 8:
+                Biblioteca.programa();
                 break;
         }
     }

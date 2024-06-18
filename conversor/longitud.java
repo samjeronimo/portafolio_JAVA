@@ -1,6 +1,8 @@
 package conversor;
 
 
+import mis_metodos.MisMetodos;
+
 import java.util.Scanner;
 
 public class longitud {
@@ -38,14 +40,17 @@ public class longitud {
         Scanner intOpcion2 = new Scanner(System.in);
         System.out.print("[?]: ");
         int opcion2 = intOpcion2.nextInt();
-        System.out.println("----------------------------------------------");
+
+        MisMetodos.imprimirLinea();
 
         switch (opcion2){
             case 1:
                 longitud.conversion1_();
+                MisMetodos.imprimirLinea();
                 break;
             case 2:
                 longitud.conversion2_();
+                MisMetodos.imprimirLinea();
                 break;
 
         }
@@ -58,8 +63,12 @@ public class longitud {
         System.out.print("Ingresa tu medida: ");
         int medida = intoDato3.nextInt();
 
+        MisMetodos.imprimirLinea();
+
         double conversion =CalConversiones(medida);
         System.out.println("De kilometros a Metros son: " + conversion);
+
+        MisMetodos.imprimirLinea();
     }
 
     //HACE LA CONVERSION
@@ -68,7 +77,11 @@ public class longitud {
         System.out.print("Ingresa tu medida: ");
         int medida2 = intoDato4.nextInt();
 
+        MisMetodos.imprimirLinea();
+
         float conversion = CalConversion2(medida2);
         System.out.println("De kilometros a Metros son: " + conversion);
+
+        MisMetodos.imprimirLinea();
     }
 }

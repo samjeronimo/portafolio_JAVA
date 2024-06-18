@@ -1,5 +1,7 @@
 package IMC;
 
+import mis_metodos.MisMetodos;
+
 import java.util.Scanner;
 
 public class IMC {
@@ -12,6 +14,8 @@ public class IMC {
 
     public static void programaIMC(){
 
+        MisMetodos.imprimirLinea();
+
         Scanner entradaDeDatos = new Scanner(System.in);
         System.out.print("Peso: ");
         double peso = entradaDeDatos.nextDouble();
@@ -21,10 +25,11 @@ public class IMC {
         //PROCESO
         double respuestaIMC = calcularIMC(peso, altura);
 
+        MisMetodos.imprimirLinea();
+
         //RESULTADO
         System.out.println("IMC: " + respuestaIMC);
 
-        System.out.println("--------------------");
         if (respuestaIMC < 18.5){
             System.out.println("--> IMC Bajo: ");
         } else if (respuestaIMC > 18.5 && respuestaIMC < 24.9){
