@@ -8,7 +8,7 @@ public class libro {
 
     //METODO CONSTRUCTOR
    public libro(String titulo, String autor, String fecha){
-       this .titulo = titulo;
+       this.titulo = titulo;
        this.autor = autor;
        this.fecha = fecha;
    }

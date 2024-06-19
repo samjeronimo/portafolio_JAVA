@@ -1,3 +1,5 @@
+import colegio.Escuela;
+import colegio.Estudiantes;
 import interfaz_grafica.Banner;
 import mis_metodos.ListaOpciones;
 import IMC.IMC;
@@ -51,6 +53,9 @@ public class Main {
                 break;
             case 8:
                 Biblioteca.programa();
+                break;
+            case 9:
+                Escuela.programa();
                 break;
         }
     }

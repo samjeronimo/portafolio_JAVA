@@ -26,5 +26,7 @@ public class Biblioteca {
         System.out.println(libro8.toString());
         System.out.println(libro9.toString());
         System.out.println(libro10.toString());
+
+        System.out.println(libro1.getTitulo());
     }
 }
