@@ -8,7 +8,7 @@ public class ListaOpciones {
                 "Grados","Longitud",
                 "Calcular edad","Lista de compras",
                 "Conversor de moneda","Biblioteca",
-                "Colegio","Opcion_10"
+                "Colegio","Salir"
         };
 
 
